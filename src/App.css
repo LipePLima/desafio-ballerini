@@ -12,6 +12,14 @@
   color: white;
 }
 
+.section-image {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 2.5rem;
+
+  background: url("assets/img/Emoji.png");
+}
+
 .section-title {
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
@@ -32,7 +40,20 @@
   margin-bottom: 40px;
 }
 
-.section-input {
+.section-container___input {
+  display: flex;
+  align-items: center;
+
+  padding-left: 1rem;
+  background: #27272A;
+  border-radius: 8px;
+}
+
+.container___input-icon {
+  color: #52525B;
+}
+
+.container___input-input {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -44,6 +65,9 @@
   padding: 16px 24px;
 
   background: #27272A;
-  border: none;
   border-radius: 8px;
+  border: none;
+
+  outline: 1px solid transparent;
+ 
 }

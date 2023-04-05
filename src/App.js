@@ -7,11 +7,12 @@ function App() {
         <div className='section-image'></div>
         <h1 className="section-title">Faça algo mágico...</h1>
         <p className="section-text">Ache sempre tudo em um só lugar</p>
-        <div className='section-container___input'>
-          <span class="material-symbols-outlined container___input-icon">search</span>
-          <input className="container___input-input" placeholder='Faça algo mágico...'></input>
-        </div>
-        
+        <article className='section-container'>
+          <div className='container__content-input'>
+            <span class="material-symbols-outlined container__content-input-icon">search</span>
+            <input className="container__content-input-input" placeholder='Faça algo mágico...'></input>
+          </div>
+        </article>
       </section>
     </div>
   );
